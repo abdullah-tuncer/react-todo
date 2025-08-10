@@ -1,5 +1,5 @@
 import './App.css'
-import {Link, BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {Link, HashRouter as Router, Route, Routes} from "react-router-dom";
 import * as React from "react";
 import {House} from "lucide-react";
 import Home from "./pages/Home.tsx";
@@ -20,13 +20,16 @@ const App: React.FC = () => {
                 </div>
             </nav>
             <main className="flex items-center flex-col">
-                <div className={"container xl:max-w-screen-xl mt-4"}>
+                <div className={"container xl:max-w-screen-xl mt-4 mb-6"}>
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         {/*<Route path="/settings" element={<Settings/>}/>*/}
                     </Routes>
                 </div>
             </main>
+            <footer className="bg-sky-900 flex justify-center font-bold fixed w-full bottom-0">
+                <a className="text-sky-100" href="https://github.com/abdullah-tuncer/react-todo" target="_blank">GitHub</a>
+            </footer>
         </Router>
     )
 }

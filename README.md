@@ -2,6 +2,8 @@
 
 Modern ve kullanıcı dostu bir todo uygulaması. React, TypeScript ve Tailwind CSS kullanılarak geliştirilmiştir.
 
+[Canlı Demo](https://abdullah-tuncer.github.io/react-todo)
+
 ## 🚀 Özellikler
 
 - ✅ **Görev Yönetimi**: Görevler oluşturun, düzenleyin ve silin
